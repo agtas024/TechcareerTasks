@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Tasks</string>
+    <string name="selamlama">Merhaba</string>
+    <string name="butonStr">Giriş Yap</string>
+    <string name="baskaHesap">Başka Bir Hesapla Giriş Yap</string>
+    <string name="isim">Ali Ayşe</string>
 </resources>

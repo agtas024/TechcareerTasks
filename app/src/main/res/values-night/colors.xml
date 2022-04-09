@@ -8,7 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="renkGri">#BA3D3939</color>
-    <color name="renkSiyah">#FF000000</color>
-    <color name="renkMavi">#046E9F</color>
+    <color name="renkGri">#BAFFFFFF</color>
+    <color name="renkSiyah">#BAFFFFFF</color>
+    <color name="renkMavi">#1D9DD9</color>
 </resources>
