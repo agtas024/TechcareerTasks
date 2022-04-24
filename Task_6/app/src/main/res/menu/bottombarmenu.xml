@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/reyonlar"
+        android:icon="@drawable/reyonlar_resim"
+        android:title="Reyonlar" />
+    <item
+        android:id="@+id/arama"
+        android:icon="@drawable/arama_resim"
+        android:title="Arama" />
+    <item
+        android:id="@+id/marketListem"
+        android:icon="@drawable/market_listesi_resim"
+        android:title="Market Listem" />
+    <item
+        android:id="@+id/uygulamalar"
+        android:icon="@drawable/uygulamalar_resmi"
+        android:title="Uygulamalar" />
+</menu>

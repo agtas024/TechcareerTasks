@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/akakce_nav"
+    app:startDestination="@id/akakceFragment">
+
+    <fragment
+        android:id="@+id/akakceFragment"
+        android:name="com.example.task_6.AkakceFragment"
+        android:label="fragment_akakce"
+        tools:layout="@layout/fragment_akakce" />
+</navigation>
