@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/yapilacaklarFragment">
+    <fragment
+        android:id="@+id/yapilacaklarFragment"
+        android:name="com.example.todoapp.fragment.YapilacaklarFragment"
+        android:label="fragment_yapilacaklar"
+        tools:layout="@layout/fragment_yapilacaklar" >
+        <action
+            android:id="@+id/detayGecis"
+            app:destination="@id/yapilacakIsDetayFragment" />
+        <action
+            android:id="@+id/kayitGecis"
+            app:destination="@id/yapilacakIsKayitFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/yapilacakIsKayitFragment"
+        android:name="com.example.todoapp.fragment.YapilacakIsKayitFragment"
+        android:label="fragment_yapilacak_is_kayit"
+        tools:layout="@layout/fragment_yapilacak_is_kayit" />
+    <fragment
+        android:id="@+id/yapilacakIsDetayFragment"
+        android:name="com.example.todoapp.fragment.YapilacakIsDetayFragment"
+        android:label="fragment_yapilacak_is_detay"
+        tools:layout="@layout/fragment_yapilacak_is_detay" >
+        <argument
+            android:name="is"
+            app:argType="com.example.todoapp.entity.Yapilacaklar" />
+    </fragment>
+</navigation>
