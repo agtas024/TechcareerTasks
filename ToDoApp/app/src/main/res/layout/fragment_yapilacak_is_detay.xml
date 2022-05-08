@@ -41,7 +41,7 @@
                 android:id="@+id/editTextYapilacakIs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Yapılacak 1iş"
+                android:hint="Yapılacak İş"
                 android:text="@{yapilacakNesnesi.yapilacak_is}" />
         </com.google.android.material.textfield.TextInputLayout>
 

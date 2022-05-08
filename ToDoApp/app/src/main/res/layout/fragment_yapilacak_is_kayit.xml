@@ -40,7 +40,7 @@
                 android:id="@+id/editTextYapilacakIs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Kişi Ad" />
+                android:hint="Yapılacak İş" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
